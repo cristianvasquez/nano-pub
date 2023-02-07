@@ -1,0 +1,36 @@
+{
+  "name": "nano-pub",
+  "type": "module",
+  "version": "0.0.1",
+  "description": "nano-publish your vault",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cristianvasquez/nano-pub.git"
+  },
+  "keywords": [
+    "rdf",
+    "markdown"
+  ],
+  "author": "Cristian Vasquez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cristianvasquez/nano-pub/issues"
+  },
+  "homepage": "https://github.com/cristianvasquez/nano-pub#readme",
+  "dependencies": {
+    "@comunica/actor-rdf-serialize-shaclc": "^2.6.0",
+    "@comunica/query-sparql-rdfjs": "^2.6.5",
+    "@rdfjs/data-model": "^2.0.1",
+    "@rdfjs/dataset": "^2.0.1",
+    "@rdfjs/namespace": "^2.0.0",
+    "@rdfjs/term-map": "^2.0.0",
+    "@rdfjs/term-set": "^2.0.1",
+    "@rdfjs/to-ntriples": "^2.0.0",
+    "clownface": "^1.5.1",
+    "vault-triplifier": "^0.4.2"
+  }
+}
