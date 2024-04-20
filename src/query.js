@@ -3,28 +3,6 @@ import pkg from 'sparqljs'
 
 const { Parser } = pkg
 
-// Oxygraph fails to add the following quads
-// Quad {
-//   subject: NamedNode { value: 'http://www.w3.org/ns/locn' },
-//   predicate: NamedNode { value: 'http://xmlns.com/foaf/0.1/depiction' },
-//   object: NamedNode { value: 'locn.svg' },
-//   graph: NamedNode {
-//     value: 'file:///home/cvasquez/github.com/OP-TED/ted-rdf-assessment/assets/common-vocabularies/w3c-locn.ttl'
-//   }
-// }
-// Quad {
-//   subject: NamedNode { value: 'locn.svg' },
-//   predicate: NamedNode { value: 'http://www.w3.org/2000/01/rdf-schema#label' },
-//   object: Literal {
-//     value: 'Class and property diagram of the LOCN vocabulary',
-//       language: '',
-//       datatype: NamedNode { value: 'http://www.w3.org/2001/XMLSchema#string' }
-//   },
-//   graph: NamedNode {
-//     value: 'file:///home/cvasquez/github.com/OP-TED/ted-rdf-assessment/assets/common-vocabularies/w3c-locn.ttl'
-//   }
-// }
-// console.log(quad)
 
 function doSelect ({ store, query }) {
   const result = []
