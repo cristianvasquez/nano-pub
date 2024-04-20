@@ -22,15 +22,9 @@
   },
   "homepage": "https://github.com/cristianvasquez/nano-pub#readme",
   "dependencies": {
-    "@comunica/actor-rdf-serialize-shaclc": "^2.6.0",
-    "@comunica/query-sparql-rdfjs": "^2.6.5",
-    "@rdfjs/data-model": "^2.0.1",
-    "@rdfjs/dataset": "^2.0.1",
-    "@rdfjs/namespace": "^2.0.0",
-    "@rdfjs/term-map": "^2.0.0",
-    "@rdfjs/term-set": "^2.0.1",
-    "@rdfjs/to-ntriples": "^2.0.0",
-    "clownface": "^1.5.1",
+    "oxigraph": "^0.4.0-alpha.6",
+    "rdf-ext": "^2.5.1",
+    "sparqljs": "^3.7.1",
     "vault-triplifier": "^0.4.2"
   }
 }
